@@ -1,0 +1,55 @@
+
+.history {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.history_carts {
+    width: 95%;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 15px;
+    border-right: 10px solid green;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 7px;
+}
+
+.history_carts.expense {
+    border-right: 10px solid brown;
+}
+
+.history_carts .cart {
+    position: relative;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart .delete {
+    position: absolute;
+    left: -37px;
+    display: none;
+    transition-property: all;
+    transition-duration: .9s;
+    padding: 3px;
+    background-color: brown;
+    cursor: pointer;
+
+}
+
+.history_carts:hover .cart .delete,
+.history_carts .cart .delete:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+}

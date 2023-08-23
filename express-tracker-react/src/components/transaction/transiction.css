@@ -1,0 +1,45 @@
+.transation {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.transation form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+form .price_name,
+form .price_amount   {
+    width: 100%;
+    text-align: start;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 7px;
+}
+
+form  input {
+    width: 100%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form button {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+}

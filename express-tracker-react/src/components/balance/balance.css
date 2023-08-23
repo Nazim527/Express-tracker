@@ -1,0 +1,52 @@
+.balance {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.balance .total_balance p{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 0.7;
+}
+
+.balance .total_balance h2 {
+    font-size: 28px;
+}
+
+.balance .balance_price {
+    width: 90%;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding: 20px 0;
+
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+
+.balance .balance_price .line {
+    width: 1px;
+    background-color: rgb(131, 131, 131);
+}
+
+.balance .balance_price .income h6,
+.balance_price .expense h6{
+    font-size: 20px;
+}
+
+.balance .balance_price .income p {
+    color: rgb(61, 159, 61);
+    font-size: 20px;
+}
+
+
+.balance .balance_price .expense p {
+    color: rgb(184, 68, 68);
+    font-size: 20px;
+}
